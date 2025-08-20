@@ -51,10 +51,9 @@ You can update them as per your requirements.
 
 ---
 
-```
 Example important variables:
 
-
+```
 variable "AWS_REGION" {
   default = "ap-south-1"
 }
