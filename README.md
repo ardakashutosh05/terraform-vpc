@@ -8,6 +8,7 @@ It is designed for setting up networking resources (VPC, subnets, route tables, 
 ## 📂 Project Structure
 
 terraform-vpc/
+
 │── instance.tf # EC2 instance configuration
 
 │── loadbalancer.tf # Load balancer configuration
@@ -23,9 +24,7 @@ terraform-vpc/
 │── README.md # Documentation
 
 
-yaml
-Copy
-Edit
+
 
 ---
 ```
@@ -43,8 +42,11 @@ Before using this project, make sure you have:
 
 ✅ SSH key pair (public/private key) created for EC2 instances.
 
+---
 ⚙️ Configuration
+
 All configurable variables are stored in vars.tf.
+
 You can update them as per your requirements.
 
 ---
@@ -52,9 +54,7 @@ You can update them as per your requirements.
 ```
 Example important variables:
 
-hcl
-Copy
-Edit
+
 variable "AWS_REGION" {
   default = "ap-south-1"
 }
@@ -75,8 +75,6 @@ variable "PubSub1CIDR" {
 
 ```
 h
-Copy
-Edit
 variable "MYIP" {
   default = "YOUR_PUBLIC_IP/32"
 }
