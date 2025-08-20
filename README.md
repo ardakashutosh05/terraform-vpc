@@ -102,7 +102,8 @@ terraform apply -auto-approve
 terraform destroy -auto-approve
 ```
 ---
-📤 Outputs
+## 📤 Outputs
+
 After applying, Terraform will output useful information such as:
 
 - VPC ID
