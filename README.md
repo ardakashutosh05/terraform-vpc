@@ -94,10 +94,9 @@ terraform validate
 terraform plan
 ```
 4️⃣ Apply Configuration (Create VPC & Resources)
-bash
-Copy
-Edit
+```
 terraform apply -auto-approve
+```
 5️⃣ Destroy Infrastructure (Clean Up)
 ```
 terraform destroy -auto-approve
