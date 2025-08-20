@@ -129,6 +129,7 @@ After applying, Terraform will output useful information such as:
 
 Here’s the animated architecture of this project:
 
+<img width="1536" height="1024" alt="ChatGPT Image Aug 20, 2025, 01_07_33 PM" src="https://github.com/user-attachments/assets/c7937f4d-4314-45af-a061-4e9bc33d0284" />
 
 
 ---
