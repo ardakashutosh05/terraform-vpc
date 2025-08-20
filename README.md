@@ -116,7 +116,7 @@ After applying, Terraform will output useful information such as:
 
 ---
 
-📝 Notes
+## 📝 Notes
 
 - Make sure you don’t exceed AWS limits (max 5 VPCs per region by default).
 
@@ -125,6 +125,13 @@ After applying, Terraform will output useful information such as:
 - Always destroy resources after testing to avoid charges.
 
   ---
+ ## 🏗️ Architecture Diagram (GIF)
+
+Here’s the animated architecture of this project:
+
+
+
+---
 
 📌 Example Use Case
 This VPC setup can be used for:
